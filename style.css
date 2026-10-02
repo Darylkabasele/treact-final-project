@@ -17,6 +17,7 @@ body {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    display: flex;
 }
 
 .row__narrow {
@@ -45,6 +46,20 @@ a {
     text-decoration: none;
     display: inline;
 }
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
 /* 
 
 NAVBAR ↓
@@ -66,7 +81,7 @@ nav {
 
 .nav__logo--title {
     font-weight: 1000;
-    font-size: 20px;
+    font-size: 24px;
     padding: 12px;
 }
 
@@ -91,7 +106,7 @@ nav {
 
 
 .nav__link {
-    padding: 10px 28px;
+    padding: 10px 4px;
     margin: 0px 24px;
     font-size: 14px;
     font-weight: 600;
@@ -100,8 +115,6 @@ nav {
     transition: 300ms;
 
 }
-
-
 
 .nav__link::after {
     content: "";
@@ -209,12 +222,85 @@ HEADER / ABOUT US ↓
 */
 
 
-header .row {
+#header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.header__description--title {
+    font-size: 48px;
+    padding: 20px 0;
+    
+}
+
+.header__description--para {
+    font-size: 18px;
+    padding: 20px 0;
+    padding-right: 8px;
+}
+
+.header__description {
+    width: 100%;
+    max-width: 500px;
+}
+
+.header__description--img2 {
+    width: 100%;
+    max-width: 780px;
+}
+
+.header__email {
+    width: 100%;
+    max-width: 448px;
+    height: 68px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__email--input {
+    width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: border-color 300ms;
+}
+
+.header__email--btn {
+    z-index: 2;
+    margin: 8px;
+    height: calc(100% - 16px);
+    border-radius: 500px;
+    width: 160px;
+    border: none;
+    background-color: #6415ff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 300ms ease;
+}
+
+.header__description--para2 {
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header__description--img {
+    margin-top: 16px;
+    padding-right: 128px;
+    opacity: 0.5;
+}
 
 /* 
 
