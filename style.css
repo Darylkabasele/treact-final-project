@@ -626,6 +626,26 @@ PRICING ↓
     align-items: center;
 }
 
+#pricing .section__para {
+    margin: 0px 360px;
+    text-align: center;
+}
+
+#pricing .section__title {
+    line-height: 1.3;
+}
+
+.plans {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.plan {
+    
+}
 /* 
 
 TESTIMONIALS ↓
