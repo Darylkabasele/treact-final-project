@@ -375,10 +375,11 @@ FEATURES ↓
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin: 0 16px;
 }
 
 .feature {
-    ;
+    width: calc(100% / 3);
 }
 
 .feature__row {
@@ -946,8 +947,8 @@ START / CALL TO ACTION ↓
 }
 
 .start__blob--1
-Specificity: (0,1,0)
- {
+Specificity: (0,1,0) 
+{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -957,6 +958,7 @@ Specificity: (0,1,0)
     color: rgb(80 17 204);
     opacity: 0.5;
 }
+
 svg:not(:root) {
     overflow-clip-margin: content-box;
     overflow: hidden;
