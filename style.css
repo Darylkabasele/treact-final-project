@@ -1308,8 +1308,19 @@ MOBILE RESPONSIVENESS ↓
   .header__img--wrapper {
     margin-top: 48px;
   }
+
+  #features {
+    align-items: center;
+  }
   .features {
     max-width: 768px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 36px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
   }
   .feature {
     width: calc(50%);
@@ -1342,6 +1353,18 @@ MOBILE RESPONSIVENESS ↓
     max-width: 20rem;
     flex-direction: column;
   }
+
+
+ .steps__description {
+    padding-left: 32px;
+    margin-right: 2px;
+ }
+ .steps__img {
+    width: 100%;
+    max-width: 512px;
+  }
+
+
   .plans {
     flex-direction: column;
     align-items: center;
@@ -1512,7 +1535,18 @@ MOBILE RESPONSIVENESS ↓
   #features .section__title,
   #pricing .section__title {
     font-size: 36px;
+    text-align: center;
   }
+
+  #pricing .section__para {
+    margin: 0px 16px;
+  }
+
+  .features {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
   .feature__row {
     flex-direction: column;
     align-items: center;
@@ -1533,9 +1567,29 @@ MOBILE RESPONSIVENESS ↓
   #steps .section__title {
     margin: 16px 0 0 0;
   }
+
+  .quality__img {
+    width: 100%;
+  }
+
+  .steps__description {
+    align-items: center;
+    margin: 36px auto;
+  }
+
   .steps__list {
     margin-top: 48px;
   }
+
+  .values__description {
+    justify-content: center;
+    margin: 36px auto;
+  }
+
+  .value__title {
+    justify-content: center;
+  }
+
   .btn {
     line-height: 1.5;
   }
